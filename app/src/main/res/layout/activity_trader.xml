@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trader_activity"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_1"
+                android:text="home"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/btn_1"
+                android:text="business"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/btn_1"
+                android:text="business"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/btn_1"
+                android:text="business"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/btn_1"
+                android:text="business"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/btn_1"
+                android:text="business"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="stratigy dsf sdf fsd s"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:fadingEdge="horizontal"
+        >
+
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:text="intraday">
+
+        </Button>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:text="swing trading"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:text="mid term"
+            >
+
+        </Button>
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:text="price action"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:text="candle stick pattern"
+
+            >
+
+        </Button>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:text="position trading"
+            >
+
+        </Button>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:text="scalping"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            >
+
+        </Button>
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

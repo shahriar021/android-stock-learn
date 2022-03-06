@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,19 +14,11 @@
 
 
 
-    <LinearLayout
-        android:layout_marginTop="20sp"
-        android:layout_marginLeft="10sp"
-        android:layout_marginRight="10sp"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/white"
-        >
-    </LinearLayout>
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#068984"
+            android:background="#00ECC5"
             android:layout_margin="10sp">
 
             <GridLayout
@@ -40,44 +32,95 @@
 
                 <Button
                     android:id="@+id/buttoninv"
-                    android:layout_gravity="fill"
                     android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
+                    android:layout_height="200sp"
                     android:backgroundTint="#7A2416"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
                     android:textColor="@color/white"
                     android:text="Investor" />
                 <Button
-                    android:id="@+id/buttontr"
-                    android:layout_gravity="fill"
+                    android:id="@+id/buttontrader"
                     android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:backgroundTint="#E1821D"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#FF3355"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
-                    android:textColor="@color/black"
-                    android:text="Trader" />
+                    android:textColor="@color/white"
+                    android:text="trader" />
                 <Button
-                    android:id="@+id/buttonmnd"
-                    android:layout_gravity="fill"
+                    android:id="@+id/buttoninv"
                     android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:backgroundTint="#FDDAD5"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#7A2416"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
-                    android:textColor="@color/black"
-                    android:text="Mindset" />
+                    android:textColor="@color/white"
+                    android:text="Investor" />
                 <Button
-                    android:id="@+id/buttoncl"
-                    android:layout_gravity="fill"
+                    android:id="@+id/buttoninv"
                     android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:backgroundTint="#00FF7F"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#7A2416"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
-                    android:textColor="@color/black"
-                    android:text="Calculator" />
+                    android:textColor="@color/white"
+                    android:text="Investor" />
+                <Button
+                    android:id="@+id/buttoninv"
+                    android:layout_columnWeight="1"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#7A2416"
+                    android:textSize="18sp"
+                    android:layout_margin="5sp"
+                    android:textColor="@color/white"
+                    android:text="Investor" />
+                <Button
+                    android:id="@+id/buttoninv"
+                    android:layout_columnWeight="1"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#7A2416"
+                    android:textSize="18sp"
+                    android:layout_margin="5sp"
+                    android:textColor="@color/white"
+                    android:text="Investor" />
+                <Button
+                    android:id="@+id/buttoninv"
+                    android:layout_columnWeight="1"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#7A2416"
+                    android:textSize="18sp"
+                    android:layout_margin="5sp"
+                    android:textColor="@color/white"
+                    android:text="Investor" />
+                <Button
+                    android:id="@+id/buttoninv"
+                    android:layout_columnWeight="1"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#7A2416"
+                    android:textSize="18sp"
+                    android:layout_margin="5sp"
+                    android:textColor="@color/white"
+                    android:text="Investor" />
+                <Button
+                    android:id="@+id/buttoninv"
+                    android:layout_columnWeight="1"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#7A2416"
+                    android:textSize="18sp"
+                    android:layout_margin="5sp"
+                    android:textColor="@color/white"
+                    android:text="Investor" />
+                <Button
+                    android:id="@+id/buttoninv"
+                    android:layout_columnWeight="1"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#7A2416"
+                    android:textSize="18sp"
+                    android:layout_margin="5sp"
+                    android:textColor="@color/white"
+                    android:text="Investor" />
+
 
 
 
@@ -90,4 +133,4 @@
 
 
 
-</LinearLayout>
+</ScrollView>

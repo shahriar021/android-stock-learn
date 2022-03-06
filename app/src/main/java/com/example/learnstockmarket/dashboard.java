@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class dashboard extends AppCompatActivity {
-    Button btninvs,btntr,btnmn,btncl;
+    Button btninvs,btntrader,btnmn,btncl;
 
 
 
@@ -24,15 +24,23 @@ public class dashboard extends AppCompatActivity {
 
 
 
-        btncl = findViewById(R.id.buttoncl);
+
         btninvs = findViewById(R.id.buttoninv);
-        btntr = findViewById(R.id.buttontr);
-        btnmn = findViewById(R.id.buttonmnd);
+        btntrader = findViewById(R.id.buttontrader);
+
 
         btninvs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(dashboard.this,invest_list.class);
+                startActivity(i);
+            }
+        });
+
+        btntrader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(dashboard.this,trader_activity.class);
                 startActivity(i);
             }
         });
