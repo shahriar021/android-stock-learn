@@ -16,10 +16,13 @@
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#00ECC5"
-            android:layout_margin="10sp">
+            android:background="@drawable/i_list"
+            android:layout_margin="10sp"
+            android:layout_marginTop="20dp"
+            >
 
             <GridLayout
                 android:layout_width="match_parent"
@@ -34,7 +37,7 @@
                     android:id="@+id/buttoninv"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
-                    android:backgroundTint="#7A2416"
+                    android:background="@drawable/i_list"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
                     android:textColor="@color/white"
@@ -43,16 +46,43 @@
                     android:id="@+id/buttontrader"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
-                    android:backgroundTint="#FF3355"
+                    android:background="@drawable/i_five"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
                     android:textColor="@color/white"
                     android:text="trader" />
                 <Button
+                    android:id="@+id/buttoncalculator"
+                    android:layout_columnWeight="1"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#f1c40f"
+                    android:textSize="18sp"
+                    android:layout_margin="5sp"
+                    android:textColor="@color/white"
+                    android:text="calculator" />
+                <Button
                     android:id="@+id/buttoninv"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
-                    android:backgroundTint="#7A2416"
+                    android:backgroundTint="#54a0ff"
+                    android:textSize="18sp"
+                    android:layout_margin="5sp"
+                    android:textColor="@color/white"
+                    android:text="tips-tricks" />
+                <Button
+                    android:id="@+id/buttoninv"
+                    android:layout_columnWeight="1"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#341f97"
+                    android:textSize="18sp"
+                    android:layout_margin="5sp"
+                    android:textColor="@color/white"
+                    android:text="basics" />
+                <Button
+                    android:id="@+id/buttoninv"
+                    android:layout_columnWeight="1"
+                    android:layout_height="200sp"
+                    android:backgroundTint="#fa8231"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
                     android:textColor="@color/white"
@@ -61,7 +91,7 @@
                     android:id="@+id/buttoninv"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
-                    android:backgroundTint="#7A2416"
+                    android:backgroundTint="#FF0000"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
                     android:textColor="@color/white"
@@ -70,7 +100,7 @@
                     android:id="@+id/buttoninv"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
-                    android:backgroundTint="#7A2416"
+                    android:backgroundTint="#008A00"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
                     android:textColor="@color/white"
@@ -79,7 +109,7 @@
                     android:id="@+id/buttoninv"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
-                    android:backgroundTint="#7A2416"
+                    android:backgroundTint="#B0BEC5"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
                     android:textColor="@color/white"
@@ -88,34 +118,7 @@
                     android:id="@+id/buttoninv"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
-                    android:backgroundTint="#7A2416"
-                    android:textSize="18sp"
-                    android:layout_margin="5sp"
-                    android:textColor="@color/white"
-                    android:text="Investor" />
-                <Button
-                    android:id="@+id/buttoninv"
-                    android:layout_columnWeight="1"
-                    android:layout_height="200sp"
-                    android:backgroundTint="#7A2416"
-                    android:textSize="18sp"
-                    android:layout_margin="5sp"
-                    android:textColor="@color/white"
-                    android:text="Investor" />
-                <Button
-                    android:id="@+id/buttoninv"
-                    android:layout_columnWeight="1"
-                    android:layout_height="200sp"
-                    android:backgroundTint="#7A2416"
-                    android:textSize="18sp"
-                    android:layout_margin="5sp"
-                    android:textColor="@color/white"
-                    android:text="Investor" />
-                <Button
-                    android:id="@+id/buttoninv"
-                    android:layout_columnWeight="1"
-                    android:layout_height="200sp"
-                    android:backgroundTint="#7A2416"
+                    android:backgroundTint="#FF5722"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
                     android:textColor="@color/white"

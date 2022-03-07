@@ -10,7 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnStockMarket">
         <activity
+            android:name=".calculator"
+            android:parentActivityName=".dashboard"
+            android:exported="false" />
+        <activity
             android:name=".trader_activity"
+            android:parentActivityName=".dashboard"
             android:exported="false" />
         <activity
             android:name=".invest_list"

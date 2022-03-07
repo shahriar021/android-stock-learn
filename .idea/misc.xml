@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/drawable/i_five.xml" value="0.153" />
+        <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/drawable/i_four.xml" value="0.153" />
+        <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/drawable/i_list.xml" value="0.153" />
+        <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/drawable/i_one.xml" value="0.153" />
+        <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/drawable/i_three.xml" value="0.153" />
+        <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/drawable/i_two.xml" value="0.153" />
+        <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/layout/activity_calculator.xml" value="0.23645833333333333" />
         <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
         <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/layout/activity_invest_list.xml" value="0.23645833333333333" />
         <entry key="..\:/ALLMyAndroidApp/LearnStockMarket/app/src/main/res/layout/activity_investor.xml" value="0.23645833333333333" />

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#F5482D">
+    android:background="#1a237e">
 
     <TextView
 
@@ -16,6 +16,7 @@
         android:text="STOCK MARKET"
         android:textStyle="bold"
         android:textSize="26sp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-26dp">
