@@ -79,14 +79,14 @@
                     android:textColor="@color/white"
                     android:text="basics" />
                 <Button
-                    android:id="@+id/buttoninv"
+                    android:id="@+id/buttonrecrds"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
                     android:backgroundTint="#fa8231"
                     android:textSize="18sp"
                     android:layout_margin="5sp"
                     android:textColor="@color/white"
-                    android:text="Investor" />
+                    android:text="records" />
                 <Button
                     android:id="@+id/buttoninv"
                     android:layout_columnWeight="1"

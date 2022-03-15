@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">LearnStockMarket</string>
+
+    <string-array name="types">
+        <item>long term investing</item>
+        <item>mid term investing</item>
+        <item>short term investing</item>
+        <item>day trading</item>
+        <item>short selling</item>
+        <item>price action</item>
+        <item>swing trading</item>
+        <item>position trading</item>
+    </string-array>
 </resources>
