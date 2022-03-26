@@ -27,10 +27,7 @@ public class AddnewUser extends AppCompatActivity {
         EditText e6 = findViewById(R.id.profitloss);
 
         Button save = findViewById(R.id.btn);
-        /*int i=0;
-        t1=findViewById(R.id.header);
-        t1.setText("i");
-        i++;*/
+        
 
         save.setOnClickListener(new View.OnClickListener() {
             @Override
