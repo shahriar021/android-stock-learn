@@ -9,9 +9,12 @@ import android.widget.Button;
 
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
+import java.util.ArrayList;
+
 public class tutorial extends AppCompatActivity {
 
     RecyclerView recyclerView;
+    ArrayList<DataSet> arrayList;
 
 
 
@@ -23,5 +26,22 @@ public class tutorial extends AppCompatActivity {
         recyclerView=findViewById(R.id.recycer_view_yourube);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
+        arrayList=new ArrayList<DataSet>();
+
+        DataSet dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        arrayList.add(dataSet);
+         dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        arrayList.add(dataSet);
+        dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        arrayList.add(dataSet);
+        dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        arrayList.add(dataSet);
+        dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        arrayList.add(dataSet);
+        dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        arrayList.add(dataSet);
+
+        YoutubeAdapter youtubeAdapter = new YoutubeAdapter(arrayList,getApplicationContext());
+        recyclerView.setAdapter(youtubeAdapter);
     }
 }
