@@ -27,7 +27,7 @@ public class invest_list extends AppCompatActivity {
     private void initData() {
         userList=new ArrayList<>();
         userList.add(new model("what is stock market ?","know here ,u wanna be rich ,invest right now,or do some trading"));
-        userList.add(new model("what is stock market ?","know here ,u wanna be rich ,invest right now,or do some trading"));
+        userList.add(new model("how to choose best stock?","know here ,u wanna be rich ,invest right now,or do some trading"));
         userList.add(new model("what is stock market ?","know here ,u wanna be rich ,invest right now,or do some trading"));
         userList.add(new model("what is stock market ?","know here ,u wanna be rich ,invest right now,or do some trading"));
         userList.add(new model("what is stock market ?","know here ,u wanna be rich ,invest right now,or do some trading"));
