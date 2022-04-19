@@ -70,7 +70,7 @@
                     android:textColor="@color/white"
                     android:text="tips-tricks" />
                 <Button
-                    android:id="@+id/buttoninv"
+                    android:id="@+id/buttonbsc"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
                     android:backgroundTint="#341f97"

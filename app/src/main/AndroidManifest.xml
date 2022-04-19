@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnStockMarket">
         <activity
+            android:name=".Basic"
+            android:exported="false" />
+        <activity
             android:name=".videoFullscreen"
             android:exported="false" />
         <activity
