@@ -61,7 +61,7 @@
                     android:textColor="@color/white"
                     android:text="calculator" />
                 <Button
-                    android:id="@+id/buttoninv"
+                    android:id="@+id/buttontips"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
                     android:backgroundTint="#54a0ff"
@@ -97,7 +97,7 @@
                     android:textColor="@color/white"
                     android:text="Tutorial" />
                 <Button
-                    android:id="@+id/buttoninv"
+                    android:id="@+id/buttoninv2"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
                     android:backgroundTint="#008A00"
@@ -106,7 +106,7 @@
                     android:textColor="@color/white"
                     android:text="Investor" />
                 <Button
-                    android:id="@+id/buttoninv"
+                    android:id="@+id/buttoninv3"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
                     android:backgroundTint="#B0BEC5"
@@ -115,7 +115,7 @@
                     android:textColor="@color/white"
                     android:text="Investor" />
                 <Button
-                    android:id="@+id/buttoninv"
+                    android:id="@+id/buttoninv4"
                     android:layout_columnWeight="1"
                     android:layout_height="200sp"
                     android:backgroundTint="#FF5722"

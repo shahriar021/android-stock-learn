@@ -28,7 +28,7 @@
 
             </Button>
             <Button
-                android:id="@+id/btn_1"
+                android:id="@+id/btn_2"
                 android:text="business"
                 android:textSize="12sp"
                 android:padding="6dp"
@@ -38,7 +38,7 @@
 
             </Button>
             <Button
-                android:id="@+id/btn_1"
+                android:id="@+id/btn_3"
                 android:text="business"
                 android:textSize="12sp"
                 android:padding="6dp"
@@ -48,7 +48,7 @@
 
             </Button>
             <Button
-                android:id="@+id/btn_1"
+                android:id="@+id/btn_4"
                 android:text="business"
                 android:textSize="12sp"
                 android:padding="6dp"
@@ -58,7 +58,7 @@
 
             </Button>
             <Button
-                android:id="@+id/btn_1"
+                android:id="@+id/btn_5"
                 android:text="business"
                 android:textSize="12sp"
                 android:padding="6dp"
@@ -68,7 +68,7 @@
 
             </Button>
             <Button
-                android:id="@+id/btn_1"
+                android:id="@+id/btn_6"
                 android:text="business"
                 android:textSize="12sp"
                 android:padding="6dp"
@@ -107,18 +107,20 @@
         android:layout_marginLeft="10dp">
 
         <Button
+            android:id="@+id/intraday"
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_alignParentStart="true"
             android:text="intraday">
 
         </Button>
+
         <Button
+            android:id="@+id/swing"
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_alignParentEnd="true"
-            android:text="swing trading"
-            >
+            android:text="swing trading">
 
         </Button>
         <Button
@@ -148,7 +150,9 @@
             >
 
         </Button>
+
         <Button
+            android:id="@+id/candlestick"
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_alignParentEnd="true"
@@ -167,7 +171,7 @@
         </Button>
     </RelativeLayout>
     <RelativeLayout
-        android:id="@+id/relative1"
+        android:id="@+id/relative3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"

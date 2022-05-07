@@ -33,6 +33,6 @@ public class listAdapter extends ArrayAdapter<User> {
         tv1.setText(user.name);
         tv2.setText(user.lastmesage);
 
-        return super.getView(position, convertView, parent);
+        return convertView;
     }
 }

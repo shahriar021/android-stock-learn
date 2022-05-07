@@ -107,7 +107,7 @@ public class dashboard extends AppCompatActivity {
         btnbasic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(dashboard.this,Basic.class);
+                Intent i =new Intent(dashboard.this,basicinfo.class);
                 startActivity(i);
             }
         });

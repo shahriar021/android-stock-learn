@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnStockMarket">
         <activity
+            android:name=".trdrintraday"
+            android:exported="false" />
+        <activity
+            android:name=".candle"
+            android:exported="false" />
+        <activity
+            android:name=".swing"
+            android:exported="false" />
+        <activity
             android:name=".basicinfo"
             android:exported="false" />
         <activity
