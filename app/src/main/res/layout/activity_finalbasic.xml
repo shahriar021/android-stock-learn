@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="finalbasic"
+    android:orientation="vertical"
+    android:background="#101742">
+
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/i_list"
+        android:layout_margin="10sp"
+        android:layout_marginTop="20dp"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp"
+            android:rowCount="4"
+            android:columnCount="2"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text="How the stock market works?
+
+The stock market is like a swap meet, auction house, and shopping mall all rolled into one.
+
+The stock market as a swap meet or flea market: The stock market has many vendors, including individual and institutional investors such as hedge funds, pension plans, and investment banks, buying and selling various items, e.g., public companies listed on stock exchanges.
+
+Notable stock market exchanges include the New York Stock Exchange (NYSE), Nasdaq Exchange, and OTC Markets. Each has different listing requirements for companies that want to use their services to raise capital from investors.
+
+The stock market as an auction house: Another aspect of the stock market is its auction-like pricing system. Unlike a retail store, where there's a set price for each item, stock prices change all the time as buyers and sellers attempt to reach a market price for a company's stock.
+
+Many internal and external factors impact stock prices. For example, a company's earnings and its growth prospects (internal factors) can affect its share price. Meanwhile, anything from an upcoming election to how investors feel about the economy's direction (external factors) can also impact stock prices.
+
+The stock market as a shopping mall: Finally, the stock market has a shopping mall feel to it because it's a one-stop shop. It houses all publicly listed companies, enabling investors to buy and sell any publicly traded stock they desire.
+
+Stock market exchanges act as both primary and secondary markets for a company's stock. They allow companies to directly sell shares via initial public offerings (IPO) to raise cash and expand their businesses.
+
+Companies can complete multiple secondary offerings of their stock when they need to raise additional funding, provided investors are willing to buy. Meanwhile, exchanges provide investors with liquidity since they can sell shares among each other.Long-term investing vs. stock trading
+We'd all love to get rich quickly. However, the stock market isn't the lottery, nor is it a casino. While some stocks deliver significant gains in short periods, they're outliers instead of the norm.Diversifying your portfolio
+Another important investing essential is understanding the benefits of having a diversified portfolio. That means owning a diverse group of stocks across different stock market sectors. Portfolio diversification reduces an investor's risk of a permanent loss and their portfolio's overall volatility. In exchange, the returns from a diversified portfolio tend to be lower than what an investor might earn if they picked a single winning stock.
+
+There are many ways to build a diversified stock portfolio, depending on whether you want to be an active or passive investor. An active investor will research stocks to find a collection of at least 10 companies across various industries that they believe will be winning investments over the long term. Meanwhile, passive investors let others do that work for them. As a result, they can quickly diversify by purchasing shares of a mutual fund, index fund, or exchange-traded fund (ETF) that hold a diverse group of stocks. As previously noted, an SnP 500 index fund has 500 stocks, giving investors broad exposure across the largest U.S. stocks."
+                android:textSize="25dp" />
+
+
+        </GridLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</ScrollView>

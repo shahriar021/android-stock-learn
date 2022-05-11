@@ -110,6 +110,7 @@
             android:id="@+id/intraday"
             android:layout_width="120dp"
             android:layout_height="150dp"
+            android:backgroundTint="#B54949"
             android:layout_alignParentStart="true"
             android:text="intraday">
 
@@ -120,6 +121,7 @@
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_alignParentEnd="true"
+            android:backgroundTint="#FF9800"
             android:text="swing trading">
 
         </Button>
@@ -142,12 +144,13 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp">
+
         <Button
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_alignParentStart="true"
-            android:text="price action"
-            >
+            android:backgroundTint="#13D1BF"
+            android:text="price action">
 
         </Button>
 
@@ -156,17 +159,19 @@
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_alignParentEnd="true"
+            android:backgroundTint="#39E440"
             android:text="candle stick pattern"
 
             >
 
         </Button>
+
         <Button
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_centerInParent="true"
-            android:text="position trading"
-            >
+            android:backgroundTint="#C0CD3E"
+            android:text="position trading">
 
         </Button>
     </RelativeLayout>
@@ -179,12 +184,13 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp">
+
         <Button
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_alignParentStart="true"
-            android:text="scalping"
-            >
+            android:backgroundTint="#A13513"
+            android:text="scalping">
 
         </Button>
         <Button
@@ -195,12 +201,13 @@
             >
 
         </Button>
+
         <Button
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_centerInParent="true"
-            android:text="coming soon"
-            >
+            android:backgroundTint="#85CF30"
+            android:text="coming soon">
 
         </Button>
     </RelativeLayout>

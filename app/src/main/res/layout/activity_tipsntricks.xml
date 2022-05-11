@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tipsntricks"
+    android:orientation="vertical"
+    android:background="#F6F930"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tips and Tricks"
+        android:textColor="#0F98AA"
+        android:textSize="35dp"
+        android:background="@color/white"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.Buy the right investment"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Avoid individual stocks if you’re a beginner"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.Create a diversified portfolio"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Be prepared for a downturn"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.Try a simulator before investing real money"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6.Stay committed to your long-term portfolio"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7.Start now"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8.Avoid short-term trading"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9.Cut Losses Early"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10.Don't Buy What Everyone Else Is Buying"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

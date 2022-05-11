@@ -28,17 +28,17 @@ public class tutorial extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         arrayList=new ArrayList<DataSet>();
 
-        DataSet dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        DataSet dataSet=new DataSet("https://www.youtube.com/watch?v=gXWXKjR-qII&t=81s");
         arrayList.add(dataSet);
-         dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+         dataSet=new DataSet("https://www.youtube.com/watch?v=gXWXKjR-qII&t=81s");
         arrayList.add(dataSet);
-        dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        dataSet=new DataSet("https://www.youtube.com/watch?v=gXWXKjR-qII&t=81s");
         arrayList.add(dataSet);
-        dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        dataSet=new DataSet("https://www.youtube.com/watch?v=gXWXKjR-qII&t=81s");
         arrayList.add(dataSet);
-        dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        dataSet=new DataSet("https://www.youtube.com/watch?v=gXWXKjR-qII&t=81s");
         arrayList.add(dataSet);
-        dataSet=new DataSet("https://www.youtube.com/watch?v=RBUbja6V9Aw&ab_channel=Let%27sStudy");
+        dataSet=new DataSet("https://www.youtube.com/watch?v=gXWXKjR-qII&t=81s");
         arrayList.add(dataSet);
 
         YoutubeAdapter youtubeAdapter = new YoutubeAdapter(arrayList,getApplicationContext());

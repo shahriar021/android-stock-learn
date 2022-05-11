@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class dashboard extends AppCompatActivity {
-    Button btninvs,btntrader,btnmn,btncl,btncalculator,buttonrecords,buttontutorial,btnbasic;
+    Button btninvs,btntrader,btnmn,btncl,btncalculator,buttonrecords,buttontutorial,btnbasic,btntips;
 
 
 
@@ -28,17 +28,17 @@ public class dashboard extends AppCompatActivity {
         getSupportActionBar().hide();
 
         //LinearLayout linearLayout = (LinearLayout)  findViewById(R.id.buttoninv);
-        Button button1 = findViewById(R.id.buttoninv);
+        /*Button button1 = findViewById(R.id.buttoninv);
         AnimationDrawable animationDrawable= (AnimationDrawable) button1.getBackground();
 
         Button button2 = findViewById(R.id.buttoninv);
-        AnimationDrawable animationDrawable2= (AnimationDrawable) button2.getBackground();
+        AnimationDrawable animationDrawable2= (AnimationDrawable) button2.getBackground();*/
 
         ConstraintLayout c = findViewById(R.id.constraint);
         AnimationDrawable animationDrawable3= (AnimationDrawable) c.getBackground();
 
 
-        animationDrawable2.setEnterFadeDuration(2500);
+        /*animationDrawable2.setEnterFadeDuration(2500);
         animationDrawable2.setExitFadeDuration(5000);
 
         animationDrawable2.start();
@@ -46,7 +46,7 @@ public class dashboard extends AppCompatActivity {
         animationDrawable.setEnterFadeDuration(500);
         animationDrawable.setExitFadeDuration(1000);
 
-        animationDrawable.start();
+        animationDrawable.start();*/
 
         animationDrawable3.setEnterFadeDuration(500);
         animationDrawable3.setExitFadeDuration(1000);
@@ -62,6 +62,7 @@ public class dashboard extends AppCompatActivity {
         buttonrecords=findViewById(R.id.buttonrecrds);
         buttontutorial=findViewById(R.id.buttontutorial);
         btnbasic=findViewById(R.id.buttonbsc);
+        btntips= findViewById(R.id.buttontips);
 
 
         btninvs.setOnClickListener(new View.OnClickListener() {
@@ -107,7 +108,15 @@ public class dashboard extends AppCompatActivity {
         btnbasic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(dashboard.this,basicinfo.class);
+                Intent i =new Intent(dashboard.this,finalbasic.class);
+                startActivity(i);
+            }
+        });
+
+        btntips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(dashboard.this,Tipsntricks.class);
                 startActivity(i);
             }
         });
