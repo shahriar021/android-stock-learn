@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnStockMarket">
         <activity
+            android:name=".position"
+            android:exported="false" />
+        <activity
+            android:name=".priceaction"
+            android:exported="false" />
+        <activity
+            android:name=".midterm"
+            android:exported="false" />
+        <activity
             android:name=".finalbasic"
             android:exported="false" />
         <activity

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".position"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#6E0E0E"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/white"
+        android:text="position trading strategy"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="Position trading is a longer-term trading strategy where a trader purposefully sits in a position for several weeks or even months, waiting for a big price move. This is a different trading philosophy to a day trader who aims to capture smaller movements by buying and selling within the same day."
+        />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ps1"/>
+
+</LinearLayout>

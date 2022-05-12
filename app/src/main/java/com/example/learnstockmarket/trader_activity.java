@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class trader_activity extends AppCompatActivity {
-    Button btn1,swing,candle,intraday;
+    Button btn1,swing,candle,intraday,mdtrm,priceaction,postion;
     TextView textView;
 
     @Override
@@ -34,6 +34,9 @@ public class trader_activity extends AppCompatActivity {
         candle = findViewById(R.id.candlestick);
         intraday = findViewById(R.id.intraday);
         textView = findViewById(R.id.text1);
+        mdtrm = findViewById(R.id.mdtrm);
+        priceaction = findViewById(R.id.priceaciton);
+        postion = findViewById(R.id.posiotn);
         textView.setSelected(true);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +67,30 @@ public class trader_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(trader_activity.this,trdrintraday.class);
+                startActivity(i);
+            }
+        });
+
+        mdtrm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(trader_activity.this,midterm.class);
+                startActivity(i);
+            }
+        });
+
+        priceaction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(trader_activity.this,priceaction.class);
+                startActivity(i);
+            }
+        });
+
+        postion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(trader_activity.this,position.class);
                 startActivity(i);
             }
         });

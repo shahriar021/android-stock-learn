@@ -125,12 +125,13 @@
             android:text="swing trading">
 
         </Button>
+
         <Button
+            android:id="@+id/mdtrm"
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_centerInParent="true"
-            android:text="mid term"
-            >
+            android:text="mid term">
 
         </Button>
     </RelativeLayout>
@@ -146,6 +147,7 @@
         android:layout_marginLeft="10dp">
 
         <Button
+            android:id="@+id/priceaciton"
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_alignParentStart="true"
@@ -167,6 +169,7 @@
         </Button>
 
         <Button
+            android:id="@+id/posiotn"
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:layout_centerInParent="true"
