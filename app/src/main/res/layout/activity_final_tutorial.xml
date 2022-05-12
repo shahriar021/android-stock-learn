@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finalTutorial"
+    android:orientation="vertical"
+    android:background="#101742">
+
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/i_list"
+        android:layout_margin="10sp"
+        android:layout_marginTop="20dp"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp"
+            android:rowCount="4"
+            android:columnCount="1"
+            >
+
+
+            <Button
+                android:id="@+id/vd1"
+                android:layout_width="match_parent"
+                android:layout_columnWeight="1"
+                android:layout_height="200sp"
+                android:backgroundTint="#E51284"
+                android:textSize="18sp"
+                android:layout_margin="5sp"
+                android:textColor="@color/white"
+                android:text="How does the stock market works?" />
+            <Button
+                android:id="@+id/basicstck"
+                android:layout_width="match_parent"
+                android:layout_columnWeight="1"
+                android:layout_height="200sp"
+                android:backgroundTint="#E51284"
+                android:textSize="18sp"
+                android:layout_margin="5sp"
+                android:textColor="@color/white"
+                android:text="Basic of Stock Market" />
+            <Button
+                android:id="@+id/tech"
+                android:layout_width="match_parent"
+                android:layout_columnWeight="1"
+                android:layout_height="200sp"
+                android:backgroundTint="#E51284"
+                android:textSize="18sp"
+                android:layout_margin="5sp"
+                android:textColor="@color/white"
+                android:text="Technical analysis" />
+            <Button
+                android:id="@+id/candle"
+                android:layout_width="match_parent"
+                android:layout_columnWeight="1"
+                android:layout_height="200sp"
+                android:backgroundTint="#E51284"
+                android:textSize="18sp"
+                android:layout_margin="5sp"
+                android:textColor="@color/white"
+                android:text="candle stick pattern" />
+            <Button
+                android:id="@+id/swingtradin"
+                android:layout_width="match_parent"
+                android:layout_columnWeight="1"
+                android:layout_height="200sp"
+                android:backgroundTint="#E51284"
+                android:textSize="18sp"
+                android:layout_margin="5sp"
+                android:textColor="@color/white"
+                android:text="Swing Trading Strategies" />
+            <Button
+                android:id="@+id/pricevdo"
+                android:layout_width="match_parent"
+                android:layout_columnWeight="1"
+                android:layout_height="200sp"
+                android:backgroundTint="#E51284"
+                android:textSize="18sp"
+                android:layout_margin="5sp"
+                android:textColor="@color/white"
+                android:text="Price Action" />
+
+
+
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</ScrollView>

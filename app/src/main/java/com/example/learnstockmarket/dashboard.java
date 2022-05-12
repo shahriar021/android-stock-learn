@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class dashboard extends AppCompatActivity {
-    Button btninvs,btntrader,btnmn,btncl,btncalculator,buttonrecords,buttontutorial,btnbasic,btntips;
+    Button btninvs,btntrader,btnmn,btncl,btncalculator,buttonrecords,buttontutorial,btnbasic,btntips,tutorial;
 
 
 
@@ -61,6 +61,7 @@ public class dashboard extends AppCompatActivity {
         btncalculator= findViewById(R.id.buttoncalculator);
         buttonrecords=findViewById(R.id.buttonrecrds);
         buttontutorial=findViewById(R.id.buttontutorial);
+        tutorial=findViewById(R.id.buttontutorial);
         btnbasic=findViewById(R.id.buttonbsc);
         btntips= findViewById(R.id.buttontips);
 
@@ -117,6 +118,14 @@ public class dashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(dashboard.this,Tipsntricks.class);
+                startActivity(i);
+            }
+        });
+
+        tutorial.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(dashboard.this,finalTutorial.class);
                 startActivity(i);
             }
         });
